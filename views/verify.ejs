@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+<style>
+  .code::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .code:-moz-placeholder {
+    text-align: center;
+  }
+  .code::-moz-placeholder {
+    text-align: center;
+  }
+  .code:-ms-input-placeholder {
+    text-align: center;
+  }
+</style>
+<div class="jumbotron centered">
+  <div class="container">
+    <h1 class="text-primary">Email Verification</h1>
+    <p class="verify-text">You have to verify your email to continue</p>
+    <form action="/verify" method="post">
+      <div class="row justify-content-center">
+        <input
+          class="col-10 col-md-6 code"
+          type="text"
+          name="verifyCode"
+          placeholder="Enter verification code"
+        />
+      </div>
+      <button class="btn btn-info verify-button">Verify</button>
+    </form>
+    <p class="verify-footer">
+      Verification email has been sent to
+      <strong><%= email %></strong>
+      <a href="/email-change">Change Email</a>
+    </p>
+  </div>
+</div>
+<%- include('partials/footer') %>

@@ -1,0 +1,31 @@
+<%- include('partials/header') %>
+<style>
+  .code::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .code:-moz-placeholder {
+    text-align: center;
+  }
+  .code::-moz-placeholder {
+    text-align: center;
+  }
+  .code:-ms-input-placeholder {
+    text-align: center;
+  }
+</style>
+<div class="jumbotron centered">
+  <div class="container">
+    <form action="/user/verify" method="post">
+      <div class="row justify-content-center">
+        <input
+          class="col-10 col-md-6 code"
+          type="text"
+          name="email"
+          placeholder="Enter email"
+        />
+      </div>
+      <button class="btn btn-info verify-button">Change Email</button>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer') %>

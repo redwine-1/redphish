@@ -1,0 +1,85 @@
+body {
+  background-color: #f1f2f6;
+}
+
+.centered {
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: #f1f2f6;
+  height: 100vh;
+}
+nav {
+  font-family: "Lobster", cursive !important;
+  letter-spacing: 2px;
+}
+
+.btts {
+  margin: 1rem 1rem 3rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.social-button {
+  text-align: center;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  line-height: 20px;
+  text-decoration: none;
+}
+.social-button:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}
+.fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+.sign-up {
+  background-color: #17a2b8;
+  color: white;
+  text-align: center;
+}
+.redirect-url {
+  background-color: #dddddd !important;
+  border-radius: 0.1rem;
+  padding: 0.6rem;
+  margin: 1rem;
+}
+
+.code {
+  border: none;
+  background-color: #f1f2f6;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+.code:focus {
+  outline: none;
+}
+.verify-text {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.verify-button {
+  margin-top: 2.5rem;
+}
+.verify-footer {
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-top: 1.8rem;
+}

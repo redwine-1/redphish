@@ -1,0 +1,39 @@
+<%- include('partials/header') %>
+<script src="/js/clipboard.min.js"></script>
+<div class="jumbotron centered">
+  <div class="container-fluid">
+    <h4>Current Redirect URL</h4>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6 col-11 redirect-url text-secondary">
+        <code><%= user.redirectURL %></code>
+      </div>
+    </div>
+    <h4>Phishing URL</h4>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6 col-11 redirect-url text-secondary">
+        <code>https://redphish.herokuapp.com/content/<%= user.code %></code>
+      </div>
+    </div>
+    <h4>Change Redirect URL</h4>
+    <form style="margin: 1rem" action="/user/redirect-url" method="post">
+      <div class="row d-flex justify-content-center">
+        <input
+          type="url"
+          name="redirectUrl"
+          class="text-secondary col-md-6 col-11 form-control"
+        />
+      </div>
+      <div class="row d-flex justify-content-center">
+        <button
+          style="margin: 1rem"
+          class="btn btn-info d-sm-inline-block"
+          type="submit"
+        >
+          Change URL
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
