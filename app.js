@@ -45,7 +45,7 @@ passport.use(
     {
       clientID: process.env.CLIENTID,
       clientSecret: process.env.CLIENTSECRET,
-      callbackURL: process.env.CALLBACKURL,
+      callbackURL: process.env.BASE_ULR + "/auth/google/user",
     },
     function (accessToken, refreshToken, profile, done) {
       User.findOne(
