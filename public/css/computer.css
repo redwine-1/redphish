@@ -58,7 +58,7 @@ header {
 .fblogo {
   margin: 0;
   padding: 0;
-  margin: 30px 0 0 0;
+  margin: 30px 0 0;
   height: 34px;
   width: 171px;
   float: left;
@@ -66,7 +66,7 @@ header {
 .loginform {
   margin: 0;
   padding: 0;
-  margin: 8px 0 0 0;
+  margin: 8px 0 0;
   border-collapse: collapse;
   float: right;
 }
@@ -94,7 +94,7 @@ header {
   color: white;
   background-color: #4267b2;
   border: 1px solid #29487d;
-  padding: 3px 6px 3px 6px;
+  padding: 3px 6px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -136,7 +136,7 @@ header {
   float: left;
 }
 .createaccount {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   width: 400px;
   height: 78px;
   margin-bottom: 35px;
@@ -162,7 +162,7 @@ header {
 .signuptextbox {
   border-radius: 5px;
   height: 21px;
-  padding: 19px 10px 19px 10px;
+  padding: 19px 10px;
   font-size: 18px;
   margin-bottom: 8px;
   border: 1px solid #c0c9da;
@@ -186,14 +186,14 @@ header {
 
 #birthday {
   margin: 0;
-  margin: 10px 0 5px 0;
+  margin: 10px 0;
 }
 .dobdiv {
   width: 100%;
   height: 40px;
 }
 .dob {
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
   border: 1px solid #bdc7d8;
 }
 .day {
@@ -230,7 +230,7 @@ header {
   left: -217%;
   font-size: 12px;
   color: #1d2129;
-  padding: 12px 12px 8px 12px;
+  padding: 12px 12px;
   box-shadow: 0 0 6px 1px rgb(143, 143, 143);
   border-radius: 3px;
   z-index: 1;
@@ -270,7 +270,7 @@ header {
 }
 
 .gender {
-  margin: 6px 0 0 0;
+  margin: 6px 0 0;
 }
 #femalediv {
   padding: 5px 0 5px 4px;
@@ -305,8 +305,8 @@ header {
   letter-spacing: 1px;
   color: #fff;
   text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-  margin: 10px 0 10px 0;
-  padding: 7px 20px 7px 20px;
+  margin: 10px 0;
+  padding: 7px 20px;
   height: 39px;
   width: 194px;
   border: 1px solid;
@@ -347,7 +347,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   height: 20px;
-  padding: 8px 0 8px 0;
+  padding: 8px 0;
   width: inherit;
   margin-top: 43px;
 }
